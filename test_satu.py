@@ -3,7 +3,7 @@ import unittest
 class TestSatu(unittest.TestCase):
     
     def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        self.assertEqual('foopaux'.upper(), 'FOOPAUX')
 
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())
